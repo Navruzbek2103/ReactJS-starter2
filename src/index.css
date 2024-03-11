@@ -1,0 +1,66 @@
+/*  by Navruzbek Akhmadaliyev, connect - @navrozbek01, navrozbek2306@gmail.com */
+
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2");
+}
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 0 100px; /* bottom = footer height */
+}
+
+.container-big {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.container-one {
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ol, ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}

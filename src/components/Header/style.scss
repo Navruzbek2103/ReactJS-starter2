@@ -1,0 +1,35 @@
+.header{
+
+  .nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 0;
+
+    &__link{
+      text-decoration: none;
+
+      &__img{
+        width: 196px;
+        height: 56px;
+      }
+    }
+
+    &__menuBox{
+      max-width: 398px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      &__
+
+      &__list{
+        max-width: 254px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
